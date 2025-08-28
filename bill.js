@@ -11,20 +11,16 @@ let price3 = 4500;
 let discountRate = 0;
 let subtotal = price1 + price2 + price3;
 
-if (subtotal >= 15000) 
-    {
+if (subtotal >= 15000) {
     discountRate = 20;
-} 
-else if (subtotal >= 10000)
-     {
+}
+else if (subtotal >= 10000) {
     discountRate = 15;
-} 
-else if (subtotal >= 5000)
-     {
+}
+else if (subtotal >= 5000) {
     discountRate = 5;
 
-} else
-     {
+} else {
     "NO DISCOUNT ";
 }
 
@@ -33,7 +29,7 @@ let total = subtotal - discountAmount;
 
 
 console.log();
-console.log(" ***SHOPPING BILL*** ");
+console.log("***SHOPPING BILL***");
 console.log();
 console.log(item1 + " " + price1);
 console.log(item2 + " " + price2);
